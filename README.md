@@ -28,3 +28,7 @@ Publish-and-subscribe is een berichtenpatroon waarbij afzenders van berichten (u
 [Routing - Wikipedia](https://en.wikipedia.org/wiki/Routing "Wikipedia - Routing")
 
 [IP-routing - Wikipedia](https://en.wikipedia.org/wiki/IP_routing "Wikipedia - IP-routing")
+
+[Point-to-point - Wikipedia](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications) "Wikipedia - Point-to-point")
+
+[Publish-and-subscribe - Wikipedia](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern "Wikipedia - Publish-and-subscribe")
