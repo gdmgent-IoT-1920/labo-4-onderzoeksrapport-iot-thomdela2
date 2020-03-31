@@ -25,15 +25,22 @@ Ze maken gebruik van een wachtrij voor de berichten, een wachtrij voor het doorg
 Dit paradigma is een broer of zus van het patroon van de uitgever of abonnee en is logischerwijs onderdeel van een nog groter MOM.
 ## Overzicht
 AMQP is een protocol voor applicatielagen, ontworpen om efficiënt een breed scala aan berichtapplicaties te ondersteunen. Er zijn 4 mogelijke soorten binnen berichtgeoriënteerde communicatie met berichtbezorgingsgaranties.
-1. **Maximaal één keer**, elk bericht één keer of nooit wordt afgeleverd.
-2. **Ten minste één keer**, elk bericht zeker wordt afgeleverd, maar kan dit herhaaldelijk doen.
-3. **Precies één keer**, elk bericht komt zeker toe, en doet dit slechts één keer.
-4. Authenticatie en/of versleuteling op basis van **SASL** en/of **TLS**.
+1. **Maximaal één keer**, elk bericht één keer of nooit wordt afgeleverd
+2. **Ten minste één keer**, elk bericht zeker wordt afgeleverd, maar kan dit herhaaldelijk doen
+3. **Precies één keer**, elk bericht komt zeker toe, en doet dit slechts één keer
+4. Authenticatie en/of versleuteling op basis van **SASL** en/of **TLS**
 ### SASL
 Simple Authentication and Security Layer, is een framework voor de authenticatie en beveiling van gegevens in Internetprotocollen. 
 ### TLS
 Transport Layer Security, vernieuwde versie van de Secure Sockets Layer (SSL), zijn protocollen die ontworpen zijn om communicatiebeveiliging te bieden via een computernetwerk.
 Diverse versies van deze protocollen worden op grote schaal gebruikt in toepassingen zoals surfen op het web, e-mail, instant messaging en meer.
+## Lagen
+De AMQP-specificatie is gedefinieerd in verschillende lagen:
+1. Een type systeem
+2. Een symmetrisch, asynchroon protocol, voor overdracht van berichten van proces A naar proces B
+3. Een standaard, uitbreidbaar berichtformaat
+4. een set gestandaardiseerde, uitbreidbare 'messaging-possibilities'
+## Beschrijving van AMQP 1.0
 ## Wat kan ik besluiten na deze onderzoeksopdracht?
 
 ## Bronnen
