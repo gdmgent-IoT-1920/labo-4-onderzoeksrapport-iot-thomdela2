@@ -87,6 +87,10 @@ De AMQP-specificatie noemt dergelijke knooppunten distributieknooppunten en verz
 
 Hoewel de AMQP gebruikt kan worden in eenvoudige peer-to-peer-systemen, maakt de AMQP het definiëren van dit framework voor messaging-mogelijkheden mogelijk in grotere, rijkere messaging-netwerken. Het gespecificeerde kader heeft betrekking op basisgedrag, maar maakt het mogelijk dat extensies evolueren die verder nog kunnen verzameld en gestandaardiseerd kunnen worden.
 
+## Vergelijkbare specificaties
+### Java Message Service
+De Java Message Service API is een java-MOM-API voor het verzenden van berichten tussen twee of meerdere clients. 
+
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
@@ -107,3 +111,5 @@ Hoewel de AMQP gebruikt kan worden in eenvoudige peer-to-peer-systemen, maakt de
 [Simple Authentication and Security Layer - Wikipedia](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer "Wikipedia - Simple Authentication and Security Layer")
 
 [Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security "Wikipedia - Transport Layer Security")
+
+[Java Message Service - Wikipedia](https://en.wikipedia.org/wiki/Java_Message_Service "Wikipedia - Java Message Service")
