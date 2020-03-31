@@ -59,6 +59,7 @@ Er zijn negen AMQP-framelichamen gedefinieerd die gebruikt worden om de overdrac
 8. Einde (sessie)
 9. Close (verbinding)
 
+
 **Link** protocol is het hart van de AMQP.
 Een **attach-framelichaam** wordt verzonden om een nieuwe link te initiëren, en een **detach** om een link af te breken. Zo kunnen er links tot stand gebracht worden om berichten te ontvangen of te verzenden.
 Berichten worden verzonden via een gevestigde link met behulp van het **transfer-frame**. Berichten op een link stromen slechts in één richting.
