@@ -89,8 +89,13 @@ Hoewel de AMQP gebruikt kan worden in eenvoudige peer-to-peer-systemen, maakt de
 
 ## Vergelijkbare specificaties
 ### Java Message Service
-De Java Message Service API is een java-MOM-API voor het verzenden van berichten tussen twee of meerdere clients. 
-
+De Java Message Service API is een **java-MOM-API** voor het verzenden van berichten tussen twee of meerdere clients. 
+Het is een implementatie om het probleem van producent aan te pakken. JMS is onderdeel van het **Java Platform Enterprise Edition** en werd gedefinieerd door een specificatie die is ontwikkeld door Sun Microsystems, maar nadien geleid door het Java Community Process.
+Het is een berichtenstandaard waarmee applicatiecomponenten op basis van **Java EE** berichten kunnen maken, verzenden, ontvangen en lezen. Het koppelt de communicatie tussen de verschillende componenten van een gedistribueerde toepassing los, het maakt het betrouwbaar en asynchroon.
+#### Provider implementaties
+* Amazon SQS (Java Messaging Library)
+* Open Message Queue (Oracle)
+* SIBus of Service Integration Bus (IBM WebSphere Application Server)
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
