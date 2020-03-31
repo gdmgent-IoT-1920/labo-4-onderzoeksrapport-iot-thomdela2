@@ -47,7 +47,20 @@ Met annoteren bedoelen we extra informatie toevoegen aan een bepaald punt of stu
 In ons geval kan een bepaalde tekenreeks geannoteerd worden zodat deze kan worden begrepen als een URL (Uniform Resource Locator).
 Het type-system gebruikt men om een berichtformaat te definiëren waarmee standaard- en uitgebreide metadata kunnen worden uitgedrukt én begrepen worden door de verwerkingsidentiteiten.
 ### Performatieven en het linkprotocol
-
+Men noemt de basiseenheid van gegevens in het AMQP een **frame**. 
+Er zijn negen AMQP-framelichamen gedefinieerd die gebruikt worden om de overdracht van berichten tussen twee peers te initiëren, te controleren en af te breken.
+1. Open (verbinding)
+2. Begin (sessie)
+3. Attach of hechten (link)
+4. Transfer of overdracht
+5. Flow of stromen
+6. Dispositie
+7. Detach of loskoppelen (link)
+8. Einde (sessie)
+9. Close (verbinding)
+**Link** protocol is het hart van de AMQP.
+Een **attach-framelichaam** wordt verzonden om een nieuwe link te initiëren, en een **detach** om een link af te breken. Zo kunnen er links tot stand gebracht worden om berichten te ontvangen of te verzenden.
+Berichten worden verzonden via een gevestigde link met behulp van het **transfer-frame**. Berichten op een link stromen slechts in één richting.
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
