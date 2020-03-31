@@ -74,6 +74,13 @@ Uiteindelijk moet elk getransfereerd ook worden afgehandeld. De afwikkeling zorg
 Meedere links, in beide richtingen, kunnen in een **sessie** worden gegroepeerd. Een sessie is een bi-directionele, sequentieel gesprek tussen 2 peers die wordt geïnitieerd met een **begin frame** en getermineerd met een **end frame**. 
 Verbindingen worden geïnitieerd met een **open frame** waarin de mogelijkheden van de verzendende peer worden uitgedrukt, en deze worden afgesloten met een **close frame**.
 
+### Messaging-possibilities
+Het koppelingsprotocol brengt berichten over tussen twee **knooppunten**, maar niet amper tot niet aan wat die knooppunten zijn of hoe deze worden geïmplementeerd.
+Een belangrijke categorie zijn die knooppunten die ook als ontmoetingspunt worden gebruikt tussen ontvangers en afzenders van berichten.
+De AMQP-specificatie noemt dergelijke knooppunten distributieknooppunten en verzamelt een aantal veelvoorkomende gedragingen.
+
+* enkele standaardresultaten voor transfers, waardoor ontvangers van berichten deze berichten bijvoorbeeld kunnen accepteren of weigeren.
+* 
 
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
