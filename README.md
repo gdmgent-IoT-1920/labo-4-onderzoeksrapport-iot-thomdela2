@@ -8,7 +8,13 @@ Met berichtgevende middleware (message-oriented middlewere - MOM) bedoelen we de
 API's die zich uitstrekken over verschillende platformen en netwerken worden meestal geleverd door MOM.
 Bepalende kenmerken van AMQP zijn MOM, queuing, routing (met point-to-point en publish-and-subscribe), reliability en security.
 ## Kenmerken
-
+### MOM
+### Queuing
+### Routing
+#### Point-to-point
+#### Publish-and-subscribe
+### Reliability
+### Security
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 [Application layer - Wikipedia](https://en.wikipedia.org/wiki/Application_layer "Wikipedia - Application layer")
