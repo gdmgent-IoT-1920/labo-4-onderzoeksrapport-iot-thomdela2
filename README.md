@@ -7,20 +7,23 @@ Voorbeelden van toepassingslagen zijn http en https.
 Met berichtgevende middleware (message-oriented middlewere - MOM) bedoelen we de software- of hardware-infrastructuur die het verzenden en ontvangen van berichten tussen gedistribueerde systemen ondersteunt.
 API's die zich uitstrekken over verschillende platformen en netwerken worden meestal geleverd door MOM.
 Bepalende kenmerken van AMQP zijn MOM, queuing, **routing** (met point-to-point en publish-and-subscribe), reliability en security.
-## Routing
+### Routing
 Routing is het proces waarbij een pad wordt geselecteerd voor verkeer in een netwerk of tussen meerdere netwerken.
 In grote lijnen wordt routing uitgevoerd in vele soorten netwerken zoals computernetwerken en internet.
 Routing is een besluitvorming die netwerkpaketten van bron naar de bestemming leidt langs verscheidene netwerkknooppunten. Het pakket doorsturen is de overdracht van netwerkpaketten van netwerkinterface A naar netwerkinterface B. De netwerkknooppunten zijn doorgaans netwerkhardwareapparaten zoals routers, gateways, firewalls of switches.
 Routing, in de nauwkeurigere zin van het woord, verwijst vaak naar IP-routing en staat in contrast met bridging.
 Ip-routing is het veld van routeringsmethoden van Internet Protocol (IP) - paketten binnen en over IP-netwerken.
-### Point-to-point
+#### Point-to-point
 Binnen de telecommunicatie verwijst point-to-point verbinding naar een communicatieverbinding tussen twee communicatieknooppunten. 
 Een voorbeeld van point-to-point communicatie is een telefoongesprek. Er zijn 2 dezelfde communicatieknooppunten, in dit geval de telefonen, en er ontstaat communicatie door een verbinding, wat de een zegt kan de ander horen. Point-to-point wordt vaak ook afgekort door P2P, niet te verwarren met peer-to-peer. Beiden worden afgekort met P2P, al wordt peer-to-peer enkel gebruikt in context van netwerken voor het delen van bestanden.
-### Publish-and-subscribe
+#### Publish-and-subscribe
 Publish-and-subscribe is een berichtenpatroon waarbij afzenders van berichten (uitgevers) de berichten niet programmeren om rechtstreeks naar specifieke ontvangers (abonnees) te sturen, maar in plaats daarvan de gepubliceerde berichten in klassen indelen zonder kennis van welke abonnees er kunnen zijn.
 Het publish-and-subscribe patroon is een broer of zus van het **berichtwachtrijparadigma** en maakt deel uit van het MOM.
-## Wat kan ik besluiten na deze onderzoeksopdracht?
+##### Berichtwachtrijparadigma
 
+## Overzicht
+__
+## Wat kan ik besluiten na deze onderzoeksopdracht?
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
