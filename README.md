@@ -18,6 +18,9 @@ Binnen de telecommunicatie verwijst point-to-point verbinding naar een communica
 Een voorbeeld van point-to-point communicatie is een telefoongesprek. Er zijn 2 dezelfde communicatieknooppunten, in dit geval de telefonen, en er ontstaat communicatie door een verbinding, wat de een zegt kan de ander horen. Point-to-point wordt vaak ook afgekort door P2P, niet te verwarren met peer-to-peer. Beiden worden afgekort met P2P, al wordt peer-to-peer enkel gebruikt in context van netwerken voor het delen van bestanden.
 ### Publish-and-subscribe
 Publish-and-subscribe is een berichtenpatroon waarbij afzenders van berichten (uitgevers) de berichten niet programmeren om rechtstreeks naar specifieke ontvangers (abonnees) te sturen, maar in plaats daarvan de gepubliceerde berichten in klassen indelen zonder kennis van welke abonnees er kunnen zijn.
+Het publish-and-subscribe patroon is een broer of zus van het **berichtwachtrijparadigma** en maakt deel uit van het MOM.
+## Wat kan ik besluiten na deze onderzoeksopdracht?
+
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
@@ -32,3 +35,5 @@ Publish-and-subscribe is een berichtenpatroon waarbij afzenders van berichten (u
 [Point-to-point - Wikipedia](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications) "Wikipedia - Point-to-point")
 
 [Publish-and-subscribe - Wikipedia](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern "Wikipedia - Publish-and-subscribe")
+
+[Message queu - Wikipedia](https://en.wikipedia.org/wiki/Message_queue "Wikipedia - Message queu")
