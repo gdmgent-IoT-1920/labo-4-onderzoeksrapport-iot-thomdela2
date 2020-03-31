@@ -41,6 +41,12 @@ De AMQP-specificatie is gedefinieerd in verschillende lagen:
 3. Een standaard, uitbreidbaar berichtformaat
 4. een set gestandaardiseerde, uitbreidbare 'messaging-possibilities'
 ## Beschrijving van AMQP 1.0
+### type-system
+AMQP wordt gedefinieerd als een zelfsbeschrijvend coderingsschema dat weergave van een groot aanal veelgebruikten typen mogelijk maakt, en om getypte gegevens te annoteren met een extra betekenis.
+Met annoteren bedoelen we extra informatie toevoegen aan een bepaald punt of stuk informatie.
+In ons geval kan een bepaalde tekenreeks geannoteerd worden zodat deze kan worden begrepen als een URL (Uniform Resource Locator).
+Het type-system gebruikt men om een berichtformaat te definiëren waarmee standaard- en uitgebreide metadata kunnen worden uitgedrukt én begrepen worden door de verwerkingsidentiteiten.
+### Performatieven en het linkprotocol
 
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
