@@ -96,6 +96,7 @@ Het is een berichtenstandaard waarmee applicatiecomponenten op basis van **Java 
 * Amazon SQS (Java Messaging Library)
 * Open Message Queue (Oracle)
 * SIBus of Service Integration Bus (IBM WebSphere Application Server)
+  
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
