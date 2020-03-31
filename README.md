@@ -16,6 +16,8 @@ Bepalende kenmerken van AMQP zijn MOM, queuing, routing (met point-to-point en p
 ### Reliability
 ### Security
 ## Bronnen
-⋅⋅⋅[Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
-⋅⋅⋅[Application layer - Wikipedia](https://en.wikipedia.org/wiki/Application_layer "Wikipedia - Application layer")
-⋅⋅⋅[OSI-model - Wikipedia](https://en.wikipedia.org/wiki/OSI_model "Wikipedia - OSI-model")
+[Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
+
+[Application layer - Wikipedia](https://en.wikipedia.org/wiki/Application_layer "Wikipedia - Application layer")
+
+[OSI-model - Wikipedia](https://en.wikipedia.org/wiki/OSI_model "Wikipedia - OSI-model")
