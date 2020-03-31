@@ -20,9 +20,15 @@ Een voorbeeld van point-to-point communicatie is een telefoongesprek. Er zijn 2 
 Publish-and-subscribe is een berichtenpatroon waarbij afzenders van berichten (uitgevers) de berichten niet programmeren om rechtstreeks naar specifieke ontvangers (abonnees) te sturen, maar in plaats daarvan de gepubliceerde berichten in klassen indelen zonder kennis van welke abonnees er kunnen zijn.
 Het publish-and-subscribe patroon is een broer of zus van het **berichtwachtrijparadigma** en maakt deel uit van het MOM.
 ##### Berichtwachtrijparadigma
-
+In de informatica worden deze paradigma's beschouwd als software engineering componenten voor de communicatie tussen processen (IPC) of inter- thread communicatie binnen hetzelfde proces.
+Ze maken gebruik van een wachtrij voor de berichten, een wachtrij voor het doorgeven van de controle van berichten of van de inhoud van de berichten.
+Dit paradigma is een broer of zus van het patroon van de uitgever of abonnee en is logischerwijs onderdeel van een nog groter MOM.
 ## Overzicht
-__
+AMQP is een protocol voor applicatielagen, ontworpen om efficiënt een breed scala aan berichtapplicaties te ondersteunen. Er zijn 4 mogelijke soorten binnen berichtgeoriënteerde communicatie met berichtbezorgingsgaranties.
+1. Maximaal één keer, elk bericht één keer of nooit wordt afgeleverd.
+2. Ten minste één keer, elk bericht zeker wordt afgeleverd, maar kan dit herhaaldelijk doen.
+3. Precies één keer, elk bericht komt zeker toe, en doet dit slechts één keer.
+4. Authenticatie en/of versleuteling op basis van **SASL** en/of **TLS**.
 ## Wat kan ik besluiten na deze onderzoeksopdracht?
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
