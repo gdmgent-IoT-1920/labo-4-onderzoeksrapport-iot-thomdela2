@@ -25,11 +25,17 @@ Ze maken gebruik van een wachtrij voor de berichten, een wachtrij voor het doorg
 Dit paradigma is een broer of zus van het patroon van de uitgever of abonnee en is logischerwijs onderdeel van een nog groter MOM.
 ## Overzicht
 AMQP is een protocol voor applicatielagen, ontworpen om efficiënt een breed scala aan berichtapplicaties te ondersteunen. Er zijn 4 mogelijke soorten binnen berichtgeoriënteerde communicatie met berichtbezorgingsgaranties.
-1. Maximaal één keer, elk bericht één keer of nooit wordt afgeleverd.
-2. Ten minste één keer, elk bericht zeker wordt afgeleverd, maar kan dit herhaaldelijk doen.
-3. Precies één keer, elk bericht komt zeker toe, en doet dit slechts één keer.
+1. **Maximaal één keer**, elk bericht één keer of nooit wordt afgeleverd.
+2. **Ten minste één keer**, elk bericht zeker wordt afgeleverd, maar kan dit herhaaldelijk doen.
+3. **Precies één keer**, elk bericht komt zeker toe, en doet dit slechts één keer.
 4. Authenticatie en/of versleuteling op basis van **SASL** en/of **TLS**.
+### SASL
+Simple Authentication and Security Layer, is een framework voor de authenticatie en beveiling van gegevens in Internetprotocollen. 
+### TLS
+Transport Layer Security, vernieuwde versie van de Secure Sockets Layer (SSL), zijn protocollen die ontworpen zijn om communicatiebeveiliging te bieden via een computernetwerk.
+Diverse versies van deze protocollen worden op grote schaal gebruikt in toepassingen zoals surfen op het web, e-mail, instant messaging en meer.
 ## Wat kan ik besluiten na deze onderzoeksopdracht?
+
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
@@ -46,3 +52,7 @@ AMQP is een protocol voor applicatielagen, ontworpen om efficiënt een breed sca
 [Publish-and-subscribe - Wikipedia](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern "Wikipedia - Publish-and-subscribe")
 
 [Message queu - Wikipedia](https://en.wikipedia.org/wiki/Message_queue "Wikipedia - Message queu")
+
+[Simple Authentication and Security Layer - Wikipedia](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer "Wikipedia - Simple Authentication and Security Layer")
+
+[Transport Layer Security - Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security "Wikipedia - Transport Layer Security")
