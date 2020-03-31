@@ -41,7 +41,6 @@ De AMQP-specificatie is gedefinieerd in verschillende lagen:
 3. Een standaard, uitbreidbaar berichtformaat
 4. een set gestandaardiseerde, uitbreidbare 'messaging-possibilities'
 ## Beschrijving van AMQP 1.0
-## Wat kan ik besluiten na deze onderzoeksopdracht?
 
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
