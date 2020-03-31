@@ -7,14 +7,9 @@ Voorbeelden van toepassingslagen zijn http en https.
 Met berichtgevende middleware (message-oriented middlewere - MOM) bedoelen we de software- of hardware-infrastructuur die het verzenden en ontvangen van berichten tussen gedistribueerde systemen ondersteunt.
 API's die zich uitstrekken over verschillende platformen en netwerken worden meestal geleverd door MOM.
 Bepalende kenmerken van AMQP zijn MOM, queuing, routing (met point-to-point en publish-and-subscribe), reliability en security.
-## Kenmerken
-### MOM
-### Queuing
-### Routing
-#### Point-to-point
-#### Publish-and-subscribe
-### Reliability
-### Security
+## Routing
+ ### Point-to-point
+ ### Publish-and-subscribe
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
