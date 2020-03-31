@@ -62,9 +62,19 @@ Er zijn negen AMQP-framelichamen gedefinieerd die gebruikt worden om de overdrac
 
 **Link** protocol is het hart van de AMQP.
 Een **attach-framelichaam** wordt verzonden om een nieuwe link te initiëren, en een **detach** om een link af te breken. Zo kunnen er links tot stand gebracht worden om berichten te ontvangen of te verzenden.
+
+
 Berichten worden verzonden via een gevestigde link met behulp van het **transfer-frame**. Berichten op een link stromen slechts in één richting.
 De transfers zijn onderworpen aan een basis **flow control system**, dat wordt beheerd met behulp van **stroom** frames. Deze stellen een proces in staat zichzelf te beschermen tegen een te groot aantal aan berichten of om een abonnerende link toestemming te geven naar eigen goeddunken op te halen.
+
+
 Uiteindelijk moet elk getransfereerd ook worden afgehandeld. De afwikkeling zorgt ervoor dat de afzender en de ontvanger het eens zijn over de status van de transfer en bieden zo betrouwbaarheidsgaranties. Wijzigingen in de staat en afwikkeling voor een transfer worden gecommuniceerd tussen de peers aan de hand van het **dispositiekader**. Op deze manier kunnen verschillende betrouwbaarheidsgaranties worden afgedwongen (ten hoogste één keer, ten minste één keer en precies één keer).
+
+
+Meedere links, in beide richtingen, kunnen in een **sessie** worden gegroepeerd. Een sessie is een bi-directionele, sequentieel gesprek tussen 2 peers die wordt geïnitieerd met een **begin frame** en getermineerd met een **end frame**. 
+Verbindingen worden geïnitieerd met een **open frame** waarin de mogelijkheden van de verzendende peer worden uitgedrukt, en deze worden afgesloten met een **close frame**.
+
+
 ## Bronnen
 [Advanced Message Queuing Protocol - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol "Wikipedia - Advanced Message Queuing Protocol")
 
